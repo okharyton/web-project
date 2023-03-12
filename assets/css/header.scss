@@ -1,0 +1,69 @@
+.header {
+  background: url("/assets/images/img/main.png") center/cover no-repeat;
+  &__container {
+    @media screen and (max-width: 768px){
+      margin: 0 auto;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+    }
+  }
+
+  &__logo {
+    @media screen and (max-width: 768px){
+      align-self: flex-start;
+      max-width: 168px;
+      padding: 17px 0 0 16px;
+      margin-bottom: 80px;
+    }
+  }
+
+  &__nav {
+    display: none;
+  }
+
+  &__tittle {
+    @media screen and (max-width: 768px){
+      max-width: 333px;
+      font-size: 48px;
+      line-height: 55px;
+      text-align: center;
+      letter-spacing: 0.2px;
+      color: #FFFFFF;
+      margin-bottom: 20px;
+    }
+  }
+
+  &__slogan {
+    @media screen and (max-width: 768px){
+      font-size: 28px;
+      line-height: 40px;
+      text-align: center;
+      letter-spacing: 0.2px;
+      color: #FFFFFF;
+      max-width: 265px;
+      margin-bottom: 60px;
+      &_hidden {
+        display: none;
+      }
+    }
+
+  }
+
+  &__button {
+    max-width: 236px;
+    padding: 16px 62px;
+    background: #2091F9;
+    border-radius: 35px;
+    color: white;
+    margin-bottom: 267px;
+  }
+}
+
+.nav {
+  &__items {
+  }
+
+  &__link {
+  }
+}

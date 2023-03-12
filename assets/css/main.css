@@ -1,0 +1,12 @@
+@import "../fonts/fonts.css";
+@import "header.css";
+@import "null.css";
+/*Common*/
+
+body {
+    font-family: "Graphic Regular", sans-serif;
+}
+
+:root {
+
+}
