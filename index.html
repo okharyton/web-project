@@ -4,14 +4,14 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Figmaland</title>
     <link rel="shortcut icon" href="https://placekitten.com/96/139" type="image/x-icon">
     <link rel="stylesheet" href="assets/css/style.css">
 </head>
 <body>
 <header class="header">
     <div class="header__container">
-        <img src="#" alt="logo" class="header__logo">
+        <img src="assets/images/img/logo.png" alt="logo" class="header__logo">
         <nav class="header__nav nav">
             <ul class="nav__items">
                 <li class="nav__link">Home</li>
@@ -24,8 +24,6 @@
     </div>
     <h1 class="header__tittle">The best products start with Figma</h1>
     <p class="header__slogan">Most calendars are designed for teams. Slate is designed for freelancers</p>
-
-    <!--        Like link (not button tag)-->
     <a href="#" class="header__button">Try For Free</a>
 </header>
 <main>
@@ -34,19 +32,21 @@
         <p class="features__slogan">Most calendars are designed for teams. Slate is designed for freelancers</p>
         <div class="features__opportunities opportunities">
             <div class="opportunities__item">
-                <img src="#" alt="icon" class="opportunities__icon">
+                <img src="assets/images/icons/features/drawing.svg" alt="Drawing icon" class="opportunities__icon">
                 <h3 class="opportunities__tittle">OpenType features Variable fonts</h3>
                 <p class="opportunities__description">Slate helps you see how many more days you need to work to reach
                     your financial goal.</p>
             </div>
             <div class="opportunities__item">
-                <img src="#" alt="icon" class="opportunities__icon">
-                <h3 class="opportunities__tittle">OpenType features Variable fonts</h3>
-                <p class="opportunities__description">Slate helps you see how many more days you need to work to reach
-                    your financial goal.</p>
+                <img src="assets/images/icons/features/draw.svg" alt="Draw icon" class="opportunities__icon">
+                <h3 class="opportunities__tittle">Design with real data</h3>
+                <p class="opportunities__description">Slate helps you see how
+                    many more days you need
+                    to work to reach your
+                    financial goal.</p>
             </div>
             <div class="opportunities__item">
-                <img src="#" alt="icon" class="opportunities__icon">
+                <img src="assets/images/icons/features/brush.svg" alt="Brush icon" class="opportunities__icon">
                 <h3 class="opportunities__tittle">OpenType features Variable fonts</h3>
                 <p class="opportunities__description">Slate helps you see how many more days you need to work to reach
                     your financial goal.</p>
@@ -61,12 +61,12 @@
             <a href="#" class="organize__button">Try For Free</a>
         </div>
         <div class="organize__img-side">
-            <img src="#" alt="org-img" class="organize__img">
+            <img src="assets/images/img/macbook-pro.png" alt="org-img" class="macbook image">
         </div>
     </section>
     <section class="newsletter">
         <div class="newsletter__img-side">
-            <img src="#" alt="newsletter" class="newsletter">
+            <img src="assets/images/img/undraw-newsletter.svg" alt="newsletter" class="newsletter">
         </div>
         <div class="newsletter__form-side form-side">
             <div class="form-side__text">
@@ -81,44 +81,198 @@
             <input type="email" id="email" name="email">
         </div>
     </section>
-    <div class="accordion">
-        <details open class="accordion__item">
-            <summary class="accordion__title">
-                <svg class="accordion__icon">
-                    <use href="/assets/icons/sprites.svg#dropdown"></use>
-                </svg>
-                Does this tour require physical fitness?
-            </summary>
-            <p class="accordion__text">
-                This tour is suitable for untrained tourists. No cliff climbing, we promise.
+    <section class="partners">
+        <h2 class="partners__title">Features</h2>
+        <p class="partners__subtitle">Most calendars are designed for teams. Slate is designed for freelancers</p>
+        <div class="partners__panel">
+            <div class="client">
+                <h5 class="client__name">Client Name</h5>
+                <img src="assets/images/img/logos-google.png" alt="Google" class="client__logo">
+            </div>
+            <div class="client">
+                <h4 class="client__name">Client Name</h4>
+                <img src="assets/images/img/logos-amazon.png" alt="Amazon" class="client__logo">
+            </div>
+            <div class="client">
+                <h4 class="client__name">Client Name</h4>
+                <img src="assets/images/img/logos-microsoft.png" alt="Microsoft" class="client__logo">
+            </div>
+        </div>
+        <a href="#" class="partners__button">Try For Free</a>
+    </section>
+    <section class="testimonials">
+        <h2 class="testimonials__title">
+            Testimonials
+        </h2>
+        <div class="testimonials__roster roster">
+            <img src="assets/images/img/logos-ibm.png" alt="" class="roster__logo">
+            <p class="roster__review">Most calendars are designed for teams.
+                Slate is designed for freelancers who want a
+                simple way to plan their schedule.
             </p>
-        </details>
-    </div>
-    <details class="accordion__item">
-        <summary class="accordion__title">
-            <svg class="accordion__icon">
-                <use href="/assets/icons/sprites.svg#dropdown"></use>
-            </svg>
-            Will I be able to see the Northern Lights?
-        </summary>
-        <p class="accordion__text">
-            We cannot promise you this. The Northern Lights only appear in winter under special circumstances. But we will hunt it in Tromsø.
+            <div class="roster__person person">
+                <img src="assets/images/img/designer-photo.jpg" alt="photo" class="person__photo">
+                <div class="person__disclosure">
+                    <p class="person__comment">Organize across</p>
+                    <div class="person__position">Ui designer</div>
+                </div>
+            </div>
+        </div>
+        <a href="" class="testimonials__button">More Testimonials</a>
+    </section>
+    <section class="pricing">
+        <h2 class="pricing__title">Pricing</h2>
+        <p class="pricing__description">Most calendars are
+            designed for teams.
         </p>
-    </details>
-    <details class="accordion__item">
-        <summary class="accordion__title">
-            <svg class="accordion__icon">
-                <use href="/assets/icons/sprites.svg#dropdown"></use>
-            </svg>
-            Can I join you not in Oslo, but in another city?
-        </summary>
-        <p class="accordion__text">
-            Depending on the weather conditions, our route may change, so we strongly recommend starting with other tourists from Oslo. We do not change the route to pick up tourists on the way.
-        </p>
-    </details>
-</main>
-<footer>
+        <div class="pricing__cards cards">
+            <div class="cards__container">
+                <div class="cards__item item">
+                    <div class="item__version version">
+                        <h3 class="version__title">Free</h3>
+                        <p class="version__description">Organize across all
+                            apps by hand
+                        </p>
+                    </div>
+                    <div class="item__offer offer">
+                        <div class="offer__price">0</div>
+                        <div class="offer__period period">
+                            <div class="period__currency">$</div>
+                            <div class="period__date">Per Month</div>
+                        </div>
+                    </div>
+                    <div class="item__features features">
+                        <ol class="features__list">
+                            <li class="features__possibility">Pricing Feature</li>
+                            <li class="features__possibility">Pricing Feature</li>
+                            <li class="features__possibility">Pricing Feature</li>
+                            <li class="features__possibility">Pricing Feature</li>
+                            <li class="features__possibility">Pricing Feature</li>
+                        </ol>
+                    </div>
+                    <a href="" class="item__button">Order Now</a>
+                </div>
 
+                <div class="cards__item item">
+                    <div class="item__version version">
+                        <h3 class="version__title">STANDARD</h3>
+                        <p class="version__description">Organize across all
+                            apps by hand
+                        </p>
+                    </div>
+                    <div class="item__offer offer">
+                        <div class="offer__price">10</div>
+                        <div class="offer__period period">
+                            <div class="period__currency">$</div>
+                            <div class="period__date">Per Month</div>
+                        </div>
+                    </div>
+                    <div class="item__features features">
+                        <ol class="features__list">
+                            <li class="features__possibility">Pricing Feature</li>
+                            <li class="features__possibility">Pricing Feature</li>
+                            <li class="features__possibility">Pricing Feature</li>
+                            <li class="features__possibility">Pricing Feature</li>
+                            <li class="features__possibility">Pricing Feature</li>
+                        </ol>
+                    </div>
+                    <a href="" class="item__button">Order Now</a>
+                </div>
+
+                <div class="cards__item item">
+                    <div class="item__version version">
+                        <h3 class="version__title">BUSINESS</h3>
+                        <p class="version__description">Organize across all
+                            apps by hand
+                        </p>
+                    </div>
+                    <div class="item__offer offer">
+                        <div class="offer__price">99</div>
+                        <div class="offer__period period">
+                            <div class="period__currency">$</div>
+                            <div class="period__date">Per Month</div>
+                        </div>
+                    </div>
+                    <div class="item__features features">
+                        <ol class="features__list">
+                            <li class="features__possibility">Pricing Feature</li>
+                            <li class="features__possibility">Pricing Feature</li>
+                            <li class="features__possibility">Pricing Feature</li>
+                            <li class="features__possibility">Pricing Feature</li>
+                            <li class="features__possibility">Pricing Feature</li>
+                        </ol>
+                    </div>
+                    <a href="" class="item__button">Order Now</a>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="contacts">
+        <div class="contacts__container">
+        <h2 class="contacts__title">Contact Us</h2>
+        <p class="contacts__description">Most calendars are
+            designed for teams.
+        </p>
+            <div class="contacts__social social">
+                <a class="social__link" href=""><img src="assets/images/icons/contacts/twitter.svg" alt="Twitter"></a>
+                <a class="social__link" href=""><img src="assets/images/icons/contacts/facebook.svg" alt="Facebook"></a>
+                <a class="social__link" href=""><img src="assets/images/icons/contacts/linkedin.svg" alt="LinkedIn"></a>
+            </div>
+            <address class="contacts__info info">
+                <div class="info__address">6386 Spring St undefined Anchorage,
+                    Georgia 12473 United States</div>
+                <a class="info__tel" href="tel:+8435550130">(843) 555-0130</a><br>
+                <a class="info__mail" href="mailto:jim@rock.com">willie.jennings@example.com</a>
+            </address>
+            <form action="#" class="contacts">
+                <input class="contacts__name" type="text" placeholder="Your Name">
+                <input class="contacts__mail" type="text" placeholder="Your Email">
+                <textarea class="contacts__message" cols="25" rows="10" placeholder="Your message"></textarea>
+                <button type="submit">Send</button>
+            </form>
+        </div>
+    </section>
+</main>
+<footer class="footer">
+    <div class="footer__container">
+        <div class="footer__list">
+            <ul class="list">
+                <li class="list__item">Annette Steward</li>
+                <li class="list__item">Jennie Cooper</li>
+                <li class="list__item">Julie Henry</li>
+                <li class="list__item">Johnny Murphy</li>
+                <li class="list__item">Gregory Mccoy</li>
+                <li class="list__item">Marvin Mckinney</li>
+            </ul>
+            <ul class="list">
+                <li class="list__item">Annette Steward</li>
+                <li class="list__item">Jennie Cooper</li>
+                <li class="list__item">Julie Henry</li>
+                <li class="list__item">Johnny Murphy</li>
+                <li class="list__item">Gregory Mccoy</li>
+                <li class="list__item">Marvin Mckinney</li>
+            </ul>
+            <ul class="list">
+                <li class="list__item">Annette Steward</li>
+                <li class="list__item">Jennie Cooper</li>
+                <li class="list__item">Julie Henry</li>
+                <li class="list__item">Johnny Murphy</li>
+                <li class="list__item">Gregory Mccoy</li>
+                <li class="list__item">Marvin Mckinney</li>
+            </ul>
+        </div>
+        <div class="footer__contacts contacts-footer">
+            <address class="contacts-footer__info info">
+                <div class="info__address">7480 Mockingbird Hill undefined</div>
+                <a class="info__tel" href="tel:+2395550108">(239) 555-0108</a><br>
+            </address>
+            <div class="contacts__footer social">
+                <a class="social__link" href=""><img src="assets/images/icons/footer/twitter.svg" alt="Twitter"></a>
+                <a class="social__link" href=""><img src="assets/images/icons/footer/facebook.svg" alt="Facebook"></a>
+                <a class="social__link" href=""><img src="assets/images/icons/footer/linkedin.svg" alt="LinkedIn"></a>
+            </div>
+        </div>
+    </div>
 </footer>
 </body>
 </html>
